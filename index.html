@@ -1,174 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="build/css/cafetime.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="build/css/styles.css">
+  <script src="https://kit.fontawesome.com/f6b5f5e3f8.js" crossorigin="anonymous"></script>
   <title>CafeTime</title>
-
 </head>
-
 <body>
+  <!-- header -->
   <header class="container header">
     <div class="row align-items-center">
       <div class="col-md-6 mb-5 mb-md-0">
         <span class="text-primary">CafeTime</span>
         <h1 class="display-2">
-          Disfruta, el café del momento
+          Disfruta, el cafe del momento
         </h1>
-        <p class="fs-3">
-          Visita nuestros locales y disfruta el placer del mejor cafe en compañia de tus amigos.
+        <p class="fs-3">Visita nuestros locales y disfruta el placer del mejor cafe en compañia de tus amigos.
         </p>
-        <a href="#" class="btn btn-primary">Conoce más</a>
+        <a href="#" class="btn btn-primary">Conoce Más</a>
       </div>
       <div class="col-md-6">
-        <img class="img-fluid" src="img/header.jpg" alt="imagen de cafe">
+        <img class="img-fluid rounded" src="img/header.jpg" alt="imagen cafe time header">
       </div>
 
     </div>
   </header>
+  <!-- Fin de header -->
 
+  <!-- contenedor -->
   <section class="container">
-    <h2 class="fs-1 text-center">Nuestros Productos</h2>
-    <p class="text-center w-50 mx-auto">Conoce las distintas variedades de cafés, tés, pasteles y postres, todo
-      artesanal, hecho por nuestras manos, maestras del dulce. Ambiente acogedor, especial para disfrutar los mejores
-      momentos. Tenemos una amplia carta, que siempre te sorprenderá.</p>
-
+    <h2 class="fs-1 text-center" >
+      Nuestros Productos
+    </h2>
+    
+   
+    <p class="text-center w-50 mx-auto">Conoce las distintas variedades de cafés, tés, pasteles y postres, todo artesanal, hecho por nuestras manos, maestras del dulce. Ambiente acogedor, especial para disfrutar los mejores momentos. Tenemos una amplia carta, que siempre te sorprenderá</p>
+    
     <div class="row">
-
-      <div class="col-md-4">
+      
+      <div class="col-md-4 text-center" >
         <figure>
-          <img class="img-fluid" src="img/figura3.png" alt="imagen de pastel de chocolate">
+          <img class="img-fluid" src="img/figura3.png" alt="imagen pastel de chocolate">
         </figure>
-        <h3 class="text-secondary text-center fs-4">Delicioso pastel de Chocolate </h3>
-        <p class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum velit, fuga natus ad nobis cum,
-          explicabo veritatis id fugit cupiditate praesentium mollitia numquam magni maiores laudantium ullam alias aut.
+        <h3 class="text-secondary text-center fs-4" >Pastel de chocolate </h3>
+        <p class="text-center" >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
         </p>
+        <!-- Button trigger modal -->
+        <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal"> Hacer Pedido </button>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <figure>
-          <img class="img-fluid" src="img/figura2.png" alt="imagen cafe">
+          <img class="img-fluid" src="img/figura2.png" alt="imagen de un café">
         </figure>
-        <h3 class="text-secondary text-center fs-4">Latte Vainilla </h3>
+        <h3 class="text-secondary text-center fs-4">Cafés</h3>
         <p class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum velit, fuga natus ad nobis cum,
-          explicabo veritatis id fugit cupiditate praesentium mollitia numquam magni maiores laudantium ullam alias aut.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
         </p>
-
+        <!-- Button trigger modal -->
+        <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal1"> Hacer Pedido </button>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <figure>
-          <img class="img-fluid" src="img/figura4.png" alt="imagen de Tiramisu">
+          <img class="img-fluid" src="img/figura4.png" alt="imagen tiramisú">
         </figure>
-        <h3 class="text-secondary text-center fs-4">Tiramisu </h3>
+        <h3 class="text-secondary text-center fs-4">Pastel Tiramisú</h3>
         <p class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum velit, fuga natus ad nobis cum,
-          explicabo veritatis id fugit cupiditate praesentium mollitia numquam magni maiores laudantium ullam alias aut.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
         </p>
-
-
-
+        <!-- Button trigger modal -->
+        <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal2"> Hacer Pedido </button>
       </div>
-
-
-
-
-    </div>
-    <div class="d-flex justify-content-center my-5">
-      <a href="#" class="btn btn-secondary text-white">Mas Información</a>
-
-
-    </div>
-
 
 
   </section>
-  <main class="container locales my-5">
+
+  <main class="container locales py-5 my-5">
+
     <div class="d-flex justify-content-between">
       <h2>Nuestros Locales</h2>
-      <a href="#" class="text-decoration-none d-none d-sm-block">Explora más locales</a>
+      <a href="#" class="text-decoration-none d-none d-sm-block">Explora más Locales</a>
     </div>
 
-    <!-- ROW CARDS -->
-    <div class="row mt-4">
-      <!-- CARDS -->
-      <div class="col-md-6 col-lg-3">
-        <div class="card">
-          <img class="card-img-top" src="img/photo1jpg.jpeg" alt="imagen local 1">
-          <div class="card-body">
-            <p class="card-text fw-bold horarios">lu.a Vi. desde 10:00 a 22:00 hrs</p>
-            <h3 class="card-title fs-5">Lorem ipsum dolor sit.</h3>
-            <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              In, nemo non.</p>
-
+        <!-- ROW CARDS -->
+        <div class="row mt-4">
+          <!-- CARDS -->
+          <div class="col-md-6 col-lg-3 mb-5">
+              <div class="card">
+                  <img class="card-img-top" src="img/photo1jpg.jpeg" alt="imagen local 1">
+                  <div class="card-body text-center">
+                      <p class="card-text fw-bold horarios">lu.a Vi. desde 10:00 a 22:00 hrs</p>
+                      <h3 class="card-title fs-5">Sucursal Providencia</h3>
+                      <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          In, nemo non.</p>
+                          <button type="button" class=" btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal4"> Ver Mapa </button>
+                          <!-- /Button trigger modal -->     
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="card">
-          <img class="card-img-top" src="img/local2.jpeg" alt="imagen local 1">
-          <div class="card-body">
-            <p class="card-text fw-bold horarios">lu.a Vi. desde 10:00 a 22:00 hrs</p>
-            <h3 class="card-title fs-5">Lorem ipsum dolor sit.</h3>
-            <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              In, nemo non.</p>
+          <div class="col-md-6 col-lg-3">
+              <div class="card">
+                  <img class="card-img-top" src="img/local2.jpeg" alt="imagen local 1">
+                  <div class="card-body text-center">
+                      <p class="card-text fw-bold horarios">lu.a Vi. desde 10:00 a 22:00 hrs</p>
+                      <h3 class="card-title fs-5">Sucursal Lastarria</h3>
+                      <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          In, nemo non.</p>
+                          <button type="button" class=" btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal5"> Ver Mapa </button>
+                          <!-- /Button trigger modal -->
 
+                  </div>
+              </div>
           </div>
-        </div>
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
-      </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="card">
-          <img class="card-img-top"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/16/a6/51/5f/restaurant-cafeteria.jpg"
-            alt="imagen local 1">
-          <div class="card-body">
-            <p class="card-text fw-bold horarios">lu.a Vi. desde 10:00 a 22:00 hrs</p>
-            <h3 class="card-title fs-5">Lorem ipsum dolor sit.</h3>
-            <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              In, nemo non.</p>
+          <div class="col-md-6 col-lg-3">
+              <div class="card">
+                  <img class="card-img-top"
+                      src="https://media-cdn.tripadvisor.com/media/photo-s/16/a6/51/5f/restaurant-cafeteria.jpg"
+                      alt="imagen local 1">
+                  <div class="card-body text-center">
+                      <p class="card-text fw-bold horarios">lu.a Vi. desde 10:00 a 22:00 hrs</p>
+                      <h3 class="card-title fs-5">Sucursal Viña del Mar</h3>
+                      <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          In, nemo non.</p>
+                          <button type="button" class=" btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal6"> Ver Mapa </button>
+                          <!-- /Button trigger modal -->
 
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="card">
-          <img class="card-img-top" src="img/local4.jpeg" alt="imagen local 1">
-          <div class="card-body">
-            <p class="card-text fw-bold horarios">lu.a Vi. desde 10:00 a 22:00 hrs</p>
-            <h3 class="card-title fs-5">Lorem ipsum dolor sit.</h3>
-            <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              In, nemo non.</p>
+          <div class="col-md-6 col-lg-3">
+              <div class="card">
+                  <img class="card-img-top" src="img/local4.jpeg" alt="imagen local 1">
+                  <div class="card-body text-center">
+                      <p class="card-text fw-bold horarios">lu.a Vi. desde 10:00 a 22:00 hrs</p>
+                      <h3 class="card-title fs-5">Sucursal La Serena</h3>
+                      <p class="card-text descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          In, nemo non.</p>
+                          <button type="button" class=" btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal7"> Ver Mapa </button>
+                          <!-- /Button trigger modal -->
 
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
-
-      <!-- /CARDS -->
-    </div>
-
+    <!--  Fin de row cards -->
+   
     <!-- aplicaciones moviles -->
     <section class="app-movil container mt-5">
-      <div class="row">
+      <div class="row" >
         <div class="offset-md-4 col-md-4">
           <span class="d-block mx-auto text-primary">Cafetime</span>
-          <p class="text-center fw-bold mt-5 fs-4">Mantente conectado, Descarga Coffee Time App</p>
+          <p class="text-center fw-bold mt-5 fs-4">Mantente Conectado, Descarga Coffee Time App</p> 
           <div class="d-flex gap-4">
             <div class="col">
               <a href="#">
@@ -179,6 +171,7 @@
             <div class="col">
               <a href="#">
                 <img class="img-fluid" src="img/imageneslocales/svg/tienda-apple.svg" alt="imagen tienda apple">
+              </a>
             </div>
           </div>
 
@@ -187,111 +180,271 @@
       </div>
 
     </section>
-    <!-- /aplicaciones moviles -->
+    <!-- Fin de aplicaciones moviles -->
   </main>
+<!-- Footer -->
 
+<footer class="bg-primary mt-5 pt-4 pb-2 text-white">
+  <!-- Container -->
+  <div class="container">
+    
+    <p class="fs-4 text-center text-white">Nuestras redes Sociales</p>
+    <div class="d-flex justify-content-center">
+      <!-- Iconos -->
+      <a href="#"> <i class="fs-2 text-white fab me-3 fa-facebook"></i></a>
+      <a href="#"> <i class="fs-2 text-white fab me-3 fa-youtube"></i></a>
+      <a href="#"><i class="fs-2 text-white fab me-3 fa-instagram"></i></a>
+    </div>  
+    <div class="row mt-4">
 
-
-
-
-  <!-- Footer -->
-  <footer class="bg-dark mt-5 pt-4 pb-2 text-white">
-
-    <!-- Container -->
-    <div class="container">
-      <p class="fs-4 text-center">Nuestras Redes Sociales</p>
-      <div class="d-flex justify-content-center">
-              <!-- Iconos -->
-    <i class="fs-2 me-3 fab fa-facebook"></i>
-    <i class="fs-2 me-3 fab fa-youtube"></i>
-    <i class="fs-2 me-3 fab fa-instagram"></i>    
-  <!-- Iconos -->
-
+      <div class="col-md-4 text-center text-white">
+        <p class="fs-5 text-white">Tu Cuenta</p>
+        <nav class="nav flex-column">
+          <a class="nav-link text-white"  href="#">Registrate</a>
+          <a class="nav-link text-white" href="#">Inicia Sesión</a>
+          <a class="nav-link text-white" href="#">Ayuda</a>
+        </nav>
       </div>
-      <div class="row mt-4">
 
-        <div class="col-md-4 text-center">
-          <p class="fs-5">Tu cuenta</p>
-          <nav class="nav flex-column">
-            <a href="nav-link">Registrate</a>
-            <a href="nav-link">Inicia Sesion</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-
-          </nav>
-
-
-        </div>
-        <div class="col-md-4 text-center">
-          <p class="fs-5">Tu cuenta</p>
-          <nav class="nav flex-column">
-            <a href="nav-link">Registrate</a>
-            <a href="nav-link">Inicia Sesion</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-            
-
-          </nav>
-
-
-        </div>
-        <div class="col-md-4 text-center">
-          <p class="fs-5">Tu cuenta</p>
-          <nav class="nav flex-column">
-            <a href="nav-link">Registrate</a>
-            <a href="nav-link">Inicia Sesion</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-            <a href="nav-link">Ayuda</a>
-
-          </nav>
-
-
-        </div>
-        
-
-
+      <div class="col-md-4 text-center">
+        <p class="fs-5 text-white">Descubrir</p>
+        <nav class="nav flex-column">
+          <a class="nav-link text-white" href="#">Grupos</a>
+          <a class="nav-link text-white" href="#">Calendario</a>
+          <a class="nav-link text-white" href="#">Ofertas</a>
+          <a class="nav-link text-white" href="#">Cuidades</a>
+          <a class="nav-link text-white" href="#">Locales</a>
+          <a class="nav-link text-white" href="#">Mapa</a>
+        </nav>
       </div>
+
+      <div class="col-md-4 text-center">
+        <p class="fs-5 text-white">CafeTime</p>
+        <nav class="nav flex-column">
+          <a class="nav-link text-white" href="#">Acerca de</a>
+          <a class="nav-link text-white" href="#">Blog</a>
+          <a class="nav-link text-white" href="#">Partners</a>
+          <a class="nav-link text-white" href="#">Descuentos</a>
+          <a class="nav-link text-white" href="#">Lorem ipsum</a>
+        </nav>
+      </div>
+
 
     </div>
+  </div>
+  <!-- Fin de Container -->
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://www.tavelli.cl/">CafeTime.cl</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
-    <!-- Container -->
-    
-    <!-- Copyright --> 
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2022 Copyright: <a class="text-white" href="https://mdbootstrap.com/">Cafetime</a> </div> 
-    <!-- Copyright -->
-    
-  </footer>
-  <!-- Footer -->
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
+ <!--Primer Modal -->
+
+ <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <!-- Modal content -->
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h3 class="modal-title  text-secondary">Pastel de Chocolate </h3>  
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+       </div>
+  
+        <div class="modal-body">
+          <img src="img/figura3.png" width= "100%" height= "100%"  id="exampleModal" alt="Pastel de Chocolate">             
+          <p>El más rico de los pasteles de chocolate lo puedes pedir directo a domicilio.</p>
+          <p>Precio: $2.190</p>
+        </div>
+  
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Lo Quiero</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Fin primer modal -->
+
+<!-- Segundo modal-->
+
+
+
+<div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+      <!-- Modal content -->
+    <div class="modal-content ">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <h3 class="modal-title  text-secondary">Café Capuccino </h3>  
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
+           
+     </div>
+
       <div class="modal-body">
-      
+        <img src="img/figura2.png" width= "100%" height= "100%"  id="exampleModal1" alt="imagen cafe">             
+        <p>Delicioso café con espuma de leche y expresso doble</p>
+        <p>Precio: $2.590</p>
       </div>
+
+
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
+        <button type="button" class="btn btn-primary">Lo Quiero</button>
       </div>
     </div>
   </div>
 </div>
+<!-- Fin de Segundo modal -->
 
-<!-- Modal -->
+<!-- Tercer Modal-->
+
+<div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <!-- Modal content -->
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h3 class="modal-title  text-secondary">Pastel de Tiramisú </h3>  
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+       </div>
   
+        <div class="modal-body">
+          <img src="img/figura4.png" width= "100%" height= "100%"  id="exampleModal2" alt="Tiramisú">             
+          <p>Exquisito y tradicional postre italiano.</p>
+          <p>Precio: $2.990</p>
+        </div>
+  
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Lo Quiero</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Fin de Tercer Modal -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!--Cuarto  Modal -->
+
+<div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <!-- Modal content -->
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h3 class="modal-title  text-secondary">Sucursal Providencia</h3>  
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+       </div>
+  
+        <div class="modal-body container-fluid">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=providencia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:center;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>  
+          <p>Av. Providencia 2550 loc.12</p>         
+        </div>
+  
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Como Llegar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Fin cuarto modal -->
+
+<!--Quinto  Modal -->
+
+<div class="modal fade " id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <!-- Modal content -->
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h3 class="modal-title  text-secondary">Sucursal Santiago Centro</h3>  
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+       </div>
+  
+        <div class="modal-body container-fluid">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Monjitas%201450&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:center;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+          <p>Monjitas 1450 loc.12</p>         
+        </div>
+  
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Como Llegar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Fin Quinto modal -->
+
+<!--Sexto  Modal -->
+<div class="modal fade " id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <!-- Modal content -->
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h3 class="modal-title  text-secondary">Sucursal Viña del Mar</h3>  
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+       </div>
+  
+        <div class="modal-body container-fluid">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=5%20norte%20250%20vi%C3%B1a%20del%20mar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:center;height:100%;width:100%px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+          <p>5 Norte 250 loc.10</p>         
+        </div>
+  
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Como Llegar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Fin Sexto modal -->
+
+<!--Septimo   Modal -->
+<div class="modal fade " id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <!-- Modal content -->
+      <div class="modal-content ">
+        <div class="modal-header">
+          <h3 class="modal-title  text-secondary">Sucursal La Serena</h3>  
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+       </div>
+  
+        <div class="modal-body container-fluid">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=av%20del%20mar%201500%20la%20serena&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:center;height:100%;width:100%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+          <p>Av. del Mar 1500 loc.204</p>         
+        </div>
+  
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Como Llegar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Septimo modal -->
+
+
+
+
+
+
+
+
+
+
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>

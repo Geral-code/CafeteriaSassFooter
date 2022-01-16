@@ -124,8 +124,8 @@ p {
 }
 
 a {
-  color: #743c20;
-  text-decoration: underline;
+  color: #ffff;
+  text-decoration: none;
 }
 a:hover {
   color: #5d301a;
